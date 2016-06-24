@@ -1,0 +1,381 @@
+body {
+    background: #D4D57B;
+    font-family: trebuchet ms, arial, helvetica, sans-serif;
+    font-size: 10pt;
+    color: #333312;
+    margin:0;
+    padding:0;
+}
+
+a,a:link,a:visited {
+	color: #914800;
+}
+
+a:hover {
+	color:#cc6600;
+}
+
+a img {
+	border:0;
+}
+
+form, ul, li {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    margin-left: 1em;
+}
+
+#enviro {
+	border-top:1px solid white;
+	border-bottom:1px solid white;
+	margin: 12px 0;
+	padding: 12px 0;
+}
+
+#enviro h2 {
+	font-size:10pt;
+	font-weight:bold;
+	color: #53490E;
+	margin-top:0;
+}
+
+#container
+{
+    width: 960px;
+    margin: 0px auto;
+    background: #CCCC66;
+    border: none;
+    border-top: 6px solid #AFAF3C;
+}
+
+#mainmenu {
+    margin-top: 8px;
+}
+
+#mssHolderUnderbar {
+    width: 100%;
+    background: #AFAF3C;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    z-index: 10;
+}
+
+#top
+{
+padding: 0px;
+background-color: transparent;
+}
+
+
+#rightnav
+{
+float: right;
+width: 260px;
+margin: 0;
+padding: 0px;
+}
+
+#content
+{
+margin-left: 0px;
+margin-right: 0px;
+padding-right: 15px;
+padding-left: 15px;
+background: url({images}/homepagebanner.jpg) no-repeat;
+z-index: 100;
+}
+
+#content p {
+    line-height: 150%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: trebuchet ms, arial, helvetica, sans-serif;
+    font-weight:normal;
+    text-transform: lowercase;
+    color: #E6E6B3;
+    margin: 0px;
+    padding: 0px;
+}
+
+h5 {
+    font-size: 14pt;
+}
+
+h4 {
+    font-size:16pt;
+    letter-spacing: 0.05em;
+}
+
+h3 {
+    font-size:20pt;
+    letter-spacing: 0.1em;
+}
+
+h2 {
+    font-size:24pt;
+    letter-spacing: 0.15em;
+}
+
+h1 {
+    font-size:36pt;
+    letter-spacing: 0.2em;
+    line-height: 1em;
+    color: #D6D684;
+}
+
+.awards_medium {
+    font-size: 12pt;
+}
+
+.awards_large {
+    font-size: 24px;
+}
+
+.awards_medium, .awards_large {
+    color: #A87A00;
+    font-weight: bold;
+}
+
+.pressrelease {
+    width: 276px;
+    background: #D4D57B;
+    padding: 8px;
+    margin: 10px;
+    margin-left: 0px;
+    border: 1px solid #AFAF3C;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.contact_details {
+    margin-top: 20px;
+}
+
+#footermenu {
+    background-color: #CCCC66;
+    font-size: 8pt;
+    margin-top: 20px;
+}
+
+.news_headline {
+    width: 70%;
+    float: left;
+}
+
+.news_summary {
+    margin-left: 10pt;
+    clear: left;
+}
+
+.news_article {
+    clear: left;
+}
+
+.news_date {
+    color: #E6E6B3;
+    text-align: right;
+    margin: 0px;
+    font-size: 11pt;
+    font-weight: bold;
+}
+
+.permalink {
+    font-weight: bold;
+}
+
+.news_item {
+    margin-bottom: 30px;
+}
+
+#faq_index {
+   margin-bottom: 30px;
+}
+
+.faq {
+    margin-bottom: 20px;
+}
+
+td.award_images_column {
+    background-color: white;
+    padding: 12px;
+}
+
+.award {
+	width: 100%;
+	background:white;
+}
+
+.award a {
+	text-align:center;
+	margin: 8px;
+	padding: 8px;
+	text-decoration:none;
+	display:block;
+	font-size:12pt;
+}
+
+.award img {
+	margin:0;
+	padding:0;
+}
+
+.award h3 {
+	margin:0 0 6px 0;
+	padding:0;
+	font-weight:normal;
+	font-size: 10pt;
+	color: #55491D;
+}
+
+#winnerimage {
+	tedxt-align:center;
+	flosat:left;
+	display:block;
+	clear:both;
+	marsgin-bottom: 50px;
+	margin-left: 50px;
+}
+
+#subaward {
+	height:350px;
+}
+
+
+#subaward h2 {
+	display:block;
+	font-family: trebuchet ms, arial, helvetica, sans-serif;
+	color:#956429;
+	font-weight:normal;
+	font-size: 12pt;
+	text-align:center;
+	padding: 8px 8px 0px 8px;
+	margin:8px 6px;
+	border-top: 1px solid green;
+}
+
+#mainaward {
+	text-align:center;
+}
+
+#mainaward img {
+	margin: 10px 0;
+}
+
+#mainaward h1,#mainaward h2 {
+	padding:0;
+	margin: 6px 0;
+}
+
+#mainaward h1 a {
+	color: #55491D;
+	font-family: trebuchet ms, arial, helvetica, sans-serif;
+	font-weight:normal;
+	font-size: 13pt;
+	text-decoration:none;
+	
+}
+
+#mainaward h2 a {
+	color: #55491D;
+	font-family: trebuchet ms, arial, helvetica, sans-serif;
+	font-weight:bold;
+	font-size: 18pt;
+	text-decoration:none;
+}
+
+#mainsub {
+	width: 745px;
+	margin: 20px 40px;
+}
+
+#int {
+	background:#cccc66;
+}
+
+#intm {
+	background:white;
+	margin-top: 0px;
+	padding: 18px 10px;
+	text-align:center;
+	display:block;
+	text-decoration:none;
+}
+
+#intm h2 {
+	color: #55491D;
+	font-family: trebuchet ms, arial, helvetica, sans-serif;
+	font-weight:normal;
+	font-size: 14pt;
+	text-decoration:none;
+	margin:0;
+	padding:0 0 12px 0;
+}
+
+a#intm:hover {
+	background:#F7F7E6;
+}
+
+
+
+td.award_images_column img {
+    margin: 12px;
+}
+
+.award_title {
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+.b_title {
+    font-weight: bold;
+}
+
+#footer {
+	font-family:Arial, Helvetica, Sans-Serif;
+	float:left;
+	clear:both;
+	width:100%;
+	color:white;
+	font-size:8pt;
+    line-height: 130%;
+}                           
+
+#footer p.top {
+	float:right;
+	display:block;
+	width:100%;
+	text-align:right;
+}
+
+#footer img {
+	floats:right;
+	vertical-align:middle;
+}
+
+a#register {
+	width:320px;
+	height:88px;
+	display:block;
+	overflow:hidden;
+	background: url(images/register.png);
+	text-indent: -5000px;
+}
+
+a#register:hover {
+	background: url(images/register.png) 0px 88px;	
+}
+
+#footermenu {
+    clear: both;
+    margin: 20px;
+}
+
+.award_cell {
+    padding-left: 12px;
+}

@@ -1,0 +1,76 @@
+.chromestyle{
+width: 99%;
+font-size: 9pt;
+font-weight: normal;
+}
+
+.chromestyle:after{ /*Add margin between menu and rest of content in Firefox*/
+content: "."; 
+display: block; 
+height: 0; 
+clear: both; 
+visibility: hidden;
+}
+
+.chromestyle ul{
+width: 90%;
+padding: 0px;
+margin: 0;
+text-align: right; /*set value to "left", "center", or "right"*/
+}
+
+.chromestyle ul li{
+display: inline;
+}
+
+.chromestyle ul li a{
+padding: 4px;
+margin: 0;
+text-decoration: none;
+}
+
+.chromestyle ul li a:hover{
+    text-decoration: underline;
+}
+
+.chromestyle ul li a[rel]:after{ /*HTML to indicate drop down link*/
+font-size: 11pt;
+content: "»";
+/*content: " " url(downimage.gif); /*uncomment this line to use an image instead*/
+}
+
+
+/* ######### Style for Drop Down Menu ######### */
+
+.dropmenudiv{
+position:absolute;
+top: 0;
+border: 1px solid #E6E6B3;
+border-bottom-width: 0;
+font:normal 12px Verdana;
+line-height:18px;
+z-index:100;
+background-color: #cdd09b;
+width: 120px;
+visibility: hidden;
+/* filter: progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=135,strength=4); Add Shadow in IE. Remove if desired*/
+}
+
+
+.dropmenudiv a{
+width: auto;
+display: block;
+text-indent: 3px;
+border-bottom: 1px solid #E6E6B3;
+padding: 2px 0;
+text-decoration: none;
+font-weight: normal;
+}
+
+* html .dropmenudiv a{ /*IE only hack*/
+width: 100%;
+}
+
+.dropmenudiv a:hover{ /*THEME CHANGE HERE*/
+background-color: #E6E6B3;
+}
