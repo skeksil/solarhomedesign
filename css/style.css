@@ -190,6 +190,19 @@ background: #6f8558 url('../images/page_bg1.jpg') repeat-x top center;
 #footer li a:hover { 
  color: #999; 
 } 
+#content-home.fullwidth {
+	float:none;
+	width:auto;
+}
+.lightgallery {
+	text-align:center;
+}
+.lightgallery a, .lightgallery a:hover {
+	text-decoration:none;
+}
+.lg-outer .lg-item, .lg-outer .lg-img-wrap {
+	left:0;
+}
 	/* table styles */
 .oddcentre {
 	background-color: #e9e9e9;
